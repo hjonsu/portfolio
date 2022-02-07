@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import styled from "styled-components";
 import Intro from "../components/Intro";
 import LinkBar from "../components/LinkBar";
+import "../custom.css";
 
 export default function Dashboard() {
   const Page = styled.div`

@@ -1,4 +1,5 @@
 import React from "react";
+import "../custom.css";
 import styled from "styled-components";
 
 export default function LinkBar() {
@@ -20,10 +21,7 @@ export default function LinkBar() {
       <Li>
         <a>resume</a>
       </Li>
-      <p>
-        *PSST! My lovely girlfriend designed and helped code this website for
-        me.
-      </p>
+      <p>*PSST! My Girlfriend helped me </p>
     </Div>
   );
 }

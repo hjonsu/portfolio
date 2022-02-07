@@ -1,5 +1,4 @@
-import "./App.css";
-import Nav from "./components/Nav";
+import "./custom.css";
 import Dashboard from "./Dashboard/Dashboard";
 
 function App() {

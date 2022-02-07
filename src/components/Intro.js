@@ -1,4 +1,5 @@
 import React from "react";
+import "../custom.css";
 import styled from "styled-components";
 
 export default function Intro() {
@@ -27,7 +28,15 @@ export default function Intro() {
       INTRO.TXT
       <Div>
         <Bio>
-          Hi, <br /> I'm Jonathan Su.
+          Hi, <br /> I'm{" "}
+          <span
+            style={{
+              background: "#C1D9EB",
+              padding: "0.15em",
+            }}
+          >
+            Jonathan Su.
+          </span>
           <Divide>
             Software Engineer and video game enthusiast based in Vancouver, BC.
           </Divide>

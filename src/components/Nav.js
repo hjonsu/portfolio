@@ -1,4 +1,5 @@
 import React from "react";
+import "../custom.css";
 import styled from "styled-components";
 
 export default function Nav() {
